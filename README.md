@@ -1,14 +1,101 @@
-# Holberton Smiling School (Bootstrap Project)
+# Atlas Smiling School JavaScript Project
 
-These group of web pages were coded from scratch with the help of the Boostrap Framework and based on some design models given on Figma.
+This project is a web application developed using HTML, CSS, Bootstrap, and JavaScript. The primary goal is to create fully functional web pages that match the design provided by Nicolas Philippot, the UI/UX designer. The web pages are designed to be responsive and accessible across different devices.
 
-[Figma Homepage](https://www.figma.com/file/QYQqMYbdpAHL5xTclwJKSI/Homepage)
+## Author:
 
-[Figma Pricing](https://www.figma.com/file/KLAI53jdYpfFNEy0O79ymB/Pricing)
+Author - Matthew Ernst: [matternstsr](https://github.com/matternstsr)
 
-[Figma Courses](https://www.figma.com/file/ivg3abH1HLmMayBgjGg1Qf/Courses)
 
-The designs were planned for Desktop, Tablet, and Mobile.
+## Requirements:
+
+- Bootstrap: Bootstrap framework is utilized for layout and styling.
+- JQuery: JQuery library is used for JavaScript functionalities.
+- Google Fonts: Fonts from Google Fonts are imported for better typography.
+
+### Imports:
+
+`<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">`
+`<link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">`
+
+`<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>`
+`<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>`
+`<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>`
+
+`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">`
+
+`<link rel="stylesheet" href="styles.css">`
+`<script src="scripts.js"></script>`
+
+
+## Prototypes
+
+### COURSES
+[COURSES Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/COURSESD.html))
+
+[COURSES Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/COURSESM.html))
+
+[COURSES Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/COURSEST.html))
+
+### COURSES
+[LANDING Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/LANDINGD.html))
+
+[LANDING Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/LANDINGM.html))
+
+[LANDING Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/LANDINGT.html))
+
+### COURSES
+[PRICING Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/PRICINGD.html))
+
+[PRICING Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/PRICINGM.html))
+
+[PRICING Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/PRICINGT.html))
+
+
+## Tasks:
+
+### 0. Fork me if you can!
+
+- Fork the existing codebase.
+- Update the repository name to `holbertonschool-smiling-school-javascript`.
+- Update the README.md file with your name as the author.
+- Implement interactions for switching between desktop, tablet, and mobile versions.
+- Apply button hover/active style: `opacity: 0.9`.
+
+### 1. Homepage - Quotes
+
+- Create a dynamic loading mechanism for quotes section using Ajax.
+- Remove static quotes and implement dynamic loading from the URL: `https://smileschool-api.hbtn.info/quotes`.
+- Display a loader during the Ajax request.
+
+### 2. Homepage - Popular Tutorials
+
+- Implement dynamic loading for popular tutorials section using Ajax.
+- Remove static video cards and fetch data from: `https://smileschool-api.hbtn.info/popular-tutorials`.
+- Display a loader during the Ajax request.
+- Implement a carousel for sliding card by card.
+
+### 3. Homepage - Latest Videos
+
+- Implement dynamic loading for latest videos section using Ajax.
+- Remove static video card and fetch data from: `https://smileschool-api.hbtn.info/latest-videos`.
+- Display a loader during the Ajax request.
+- Implement a carousel for sliding card by card.
+
+### 4. Pricing - Quotes
+
+- Implement dynamic loading for quotes section in pricing page using Ajax.
+- Remove static quotes and fetch data from: `https://smileschool-api.hbtn.info/quotes`.
+- Display a loader during the Ajax request.
+- Implement a carousel for displaying quotes.
+
+### 5. Courses
+
+- Implement dynamic loading for courses section using Ajax.
+- Remove static video cards and fetch data from: `https://smileschool-api.hbtn.info/courses`.
+- Display a loader during the Ajax request.
+- Implement dynamic dropdowns for topics and sorting.
+- Perform API requests based on user interactions: search value change, topic selection, and sort by selection.
 
 # Homepage
 
@@ -28,50 +115,18 @@ The designs were planned for Desktop, Tablet, and Mobile.
 | -------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
 | ![Desktop](https://i.ibb.co/y51S3HX/Courses-Desktop.png) | ![Tablet](https://i.ibb.co/28qK1g0/Courses-Tablet.png) | ![Mobile](https://i.ibb.co/f8zNgkx/Courses-Mobile.png) |
 
-# Sections
+## Pages
 
-The Holberton Smiling School web pages were developed by sections using the Bootstrap Front-End framework and CSS styles.
+[Page Name](link)
+[Page Name](link)
+[Page Name](link)
+[Page Name](link)
+[Page Name](link)
+[Page Name](link)
 
-## CSS File
 
-[Styles](https://github.com/jzamora5/holberton-smiling-school/blob/master/styles.css)
+# Authors:
 
-## Homepage
+Origional Author - Jhoan Zamora: [jzamora5](https://github.com/jzamora5)
 
-[Homepage Header/Hero Section](https://github.com/jzamora5/holberton-smiling-school/blob/master/0-homepage.html)
-
-[Carousel of quotes](https://github.com/jzamora5/holberton-smiling-school/blob/master/1-homepage.html)
-
-[Popular Videos](https://github.com/jzamora5/holberton-smiling-school/blob/master/2-homepage.html)
-
-[Row of smiles](https://github.com/jzamora5/holberton-smiling-school/blob/master/3-homepage.html)
-
-[Latest Videos](https://github.com/jzamora5/holberton-smiling-school/blob/master/4-homepage.html)
-
-[Footer](https://github.com/jzamora5/holberton-smiling-school/blob/master/homepage.html)
-
-## Pricing
-
-[Pricing Header](https://github.com/jzamora5/holberton-smiling-school/blob/master/0-pricing.html)
-
-[Prices Grid](https://github.com/jzamora5/holberton-smiling-school/blob/master/1-pricing.html)
-
-[Quotes Section](https://github.com/jzamora5/holberton-smiling-school/blob/master/2-pricing.html)
-
-[FAQ](https://github.com/jzamora5/holberton-smiling-school/blob/master/3-pricing.html)
-
-[Footer](https://github.com/jzamora5/holberton-smiling-school/blob/master/pricing.html)
-
-## Courses
-
-[Courses Header](https://github.com/jzamora5/holberton-smiling-school/blob/master/0-courses.html)
-
-[Search Filters](https://github.com/jzamora5/holberton-smiling-school/blob/master/1-courses.html)
-
-[List of Results](https://github.com/jzamora5/holberton-smiling-school/blob/master/2-courses.html)
-
-[Footer](https://github.com/jzamora5/holberton-smiling-school/blob/master/courses.html)
-
-# Author:
-
-Jhoan Zamora: [jzamora5](https://github.com/jzamora5)
+Enhanced Author - Matthew Ernst: [matternstsr](https://github.com/matternstsr)
