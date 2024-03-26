@@ -97,7 +97,7 @@ Author - Matthew Ernst: [matternstsr](https://github.com/matternstsr)
 - Implement dynamic dropdowns for topics and sorting.
 - Perform API requests based on user interactions: search value change, topic selection, and sort by selection.
 
-# Homepage
+# Origional Repo Homepage
 
 | **Desktop (Width: 1440 px)**                              | **Tablet (Width: 768 px)**                              | **Mobile (Width: 576 px)**                              |
 | --------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- |
@@ -117,7 +117,7 @@ Author - Matthew Ernst: [matternstsr](https://github.com/matternstsr)
 
 ## Pages
 
-[Page Name](link)
+[Origional Repo](https://github.com/jzamora5/holberton-smiling-school)
 [Page Name](link)
 [Page Name](link)
 [Page Name](link)
