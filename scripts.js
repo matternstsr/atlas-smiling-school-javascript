@@ -1,9 +1,6 @@
 // Quote Carousel
-
 $(document).ready(function() {
-
     $('.loader').show();
-
     $.ajax({
         url: 'https://smileschool-api.hbtn.info/quotes',
         method: 'GET',
@@ -15,7 +12,6 @@ $(document).ready(function() {
                     let qImg = '<div class="col-12 col-sm-4 col-lg-2 offset-lg-1 text-center">' +
                                     '<img src="' + item.pic_url + '" class="img-fluid d-block align-self-center rounded-circle ml-sm-2 mx-auto mx-sm-0" style="width: 160px !Important;" alt="Carousel Pic ' + (index + 1) + '">' +
                                 '</div>';
-
                     let qInfo = '<div class="col-12 col-sm-7  col-lg-9 offset-lg-0">' +
                                     '<div class="quote-text">' +
                                         '<p class="text-white">' + item.text + '</p>' +
@@ -23,12 +19,9 @@ $(document).ready(function() {
                                         '<span class="text-white">' + item.title + '</span>' +
                                     '</div>' +
                                 '</div>';
-
                     let slide = '<div class="row mx-auto align-items-center">' + qImg + qInfo + '</div>'
-
                     $('.qCarousel').append(slide);
                 });
-
                 $('.qCarousel').slick({
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -38,26 +31,21 @@ $(document).ready(function() {
                 });
             }
         },
-
         error: function(xhr, status, error) {
             console.error(xhr);
             console.error(status + ': ' + error);
             $('.loader').hide();
         }
     });
-
 // Popular Tutorials
-
     $.ajax({
         url: 'https://smileschool-api.hbtn.info/popular-tutorials',
         method: 'GET',
         dataType: 'json',
         success: function(data) {
             $('.loader').hide();
-
             if (data && data.length > 0) {
                 $.each(data, function(index, item){
-
                     let stars = '';
                         for (let i = 0; i < item.star; i++) {
                             stars += '<img src="images/star_on.png" alt="star on" width="15px"/>';
@@ -65,7 +53,6 @@ $(document).ready(function() {
                         for (let i = item.star; i < 5; i++) {
                             stars += '<img src="images/star_off.png" alt="star off" width="15px"/>';
                         }
-
                     let ptCard = '<div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">' +
                                     '<div class="card pl-sm-3 pr-sm-3 pl-md-0 pr-md-0">' +
                                         '<img src=' + item.thumb_url + ' class="card-img-top" alt="Video thumbnail' + (index + 1) + '"/>' +
@@ -86,10 +73,8 @@ $(document).ready(function() {
                                         '</div>' +
                                     '</div>' +
                                 '</div>';
-
                     $('.ptCarousel').append(ptCard);
                 });
-
                 $('.ptCarousel').slick({
                     slidesToShow: 4,
                     slidesToScroll: 1,
@@ -97,43 +82,32 @@ $(document).ready(function() {
                     autoplaySpeed: 2000,
                     centerMode: false,
                     responsive: [
-                        {
-                            breakpoint: 768,
+                        {breakpoint: 768,
                             settings: {
                                 slidesToShow: 2
-                            }
-                        },
-                        {
-                            breakpoint: 576,
+                            }},
+                        {breakpoint: 576,
                             settings: {
                                 slidesToShow: 1
-                            }
-                        }
-                    ] 
+                            }}] 
                 });
             }
         },
-
         error: function(xhr, status, error) {
             console.error(xhr);
             console.error(status + ': ' + error);
             $('.loader').hide();
         }
     });
-
 // Latest videos
-
     $.ajax({
         url: 'https://smileschool-api.hbtn.info/latest-videos',
         method: 'GET',
         dataType: 'json',
         success: function(data) {
             $('.loader').hide();
-
             if (data && data.length > 0) {
-
                 $.each(data, function(index, item){
-
                     let stars = '';
                         for (let i = 0; i < item.star; i++) {
                             stars += '<img src="images/star_on.png" alt="star on" width="15px"/>';
@@ -141,7 +115,6 @@ $(document).ready(function() {
                         for (let i = item.star; i < 5; i++) {
                             stars += '<img src="images/star_off.png" alt="star off" width="15px"/>';
                         }
-
                     let lvCard = '<div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">' +
                                     '<div class="card pl-sm-3 pr-sm-3 pl-md-0 pr-md-0">' +
                                         '<img src=' + item.thumb_url + ' class="card-img-top" alt="Video thumbnail' + (index + 1) + '"/>' +
@@ -162,16 +135,11 @@ $(document).ready(function() {
                                         '</div>' +
                                     '</div>' +
                                 '</div>';
-
                     $('.lvCarousel').append(lvCard);
                 });
-
                 $('.lvCarousel .col-lg-3').slice(0, 4).clone().appendTo('.lvCarousel');
-
                 $('.lvCarousel .col-lg-3').slice(0, 4).remove();
-
                 $('.lvCarousel').append($('.lvCarousel .col-lg-3').slice(0, 4).clone());
-
                 $('.lvCarousel').slick({
                     slidesToShow: 4,
                     slidesToScroll: 1,
@@ -183,34 +151,26 @@ $(document).ready(function() {
                             breakpoint: 768,
                             settings: {
                                 slidesToShow: 2
-                            }
-                        },
+                            }},
                         {
                             breakpoint: 576,
                             settings: {
                                 slidesToShow: 1
-                            }
-                        }
+                            }}
                     ] 
                 });
-
             }
         },
-
         error: function(xhr, status, error) {
             console.error(xhr);
             console.error(status + ': ' + error);
             $('.loader').hide();
         }
     });
-
 //Courses
-
-
     function capFirst(string) {
         return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
     }
-
     function dropdownItems(items, dropId, click) {
         let dropdownMenu = $('#' + dropId);
         dropdownMenu.empty();
@@ -222,41 +182,33 @@ $(document).ready(function() {
             dropdownItem.click(function() {
                 click(itemText)
             });
-
             dropdownMenu.append(dropdownItem);
         });
     }
-
     function dropTopicGenerate(dropId) {
         let dropdownMenu = $('#' + dropId);
         let firstText = dropdownMenu.find('.dropdown-item').first().text();
         $('#topicDropdown').append('<span id="topicSpan">' + firstText + '</span>');
     }
-
     function dropSortGenerate(dropId) {
         let dropdownMenu = $('#' + dropId);
         let firstText = dropdownMenu.find('.dropdown-item').first().text();
         $('#sortDropdown').append('<span id="sortSpan">' + firstText + '</span>');
     }
-
     let filtered = [];
-
     function dropTopicClick(itemText, videos) {
         $('#topicDropdown span').text(itemText);
         filterVideos();
     }
-
     function dropSortClick(itemText, videos) {
         $('#sortDropdown span').text(itemText);
         filterVideos();
     }
-
     $('#searchInput').on('keypress', function(event) {
         if (event.which === 13 || event.keyCode === 13) {
             filterVideos();
         }
     });
-
     function filterKey(videos, keywords) {
         if (!keywords) {
             return videos;
@@ -269,12 +221,10 @@ $(document).ready(function() {
             });
         }
     }
-
     function filterVideos() {
         let searchValue = $('#searchInput').val().toLowerCase();
         let topicValue = $('#topicDropdown span').text().toLowerCase();
         let sortValue = $('#sortDropdown span').text().toLowerCase();
-    
         $.ajax({
             url: 'https://smileschool-api.hbtn.info/courses',
             method: 'GET',
@@ -287,11 +237,9 @@ $(document).ready(function() {
             success: function(data) {
                 $('.loader').show();
                 $('.courseImage').hide();
-
                 setTimeout(function() {
                     $('.loader').hide();
                     $('.courseImage').show();
-
                     videos = [];
                     $.each(data.courses, function(index, item) {
                         videos.push({
@@ -311,7 +259,6 @@ $(document).ready(function() {
             }
         });
     }
-
     function showVideos(videos) {
         $('.courseImage').empty();
         let keywords = $('#searchInput').val().toLowerCase();
@@ -325,7 +272,6 @@ $(document).ready(function() {
             for (let i = item.star; i < 5; i++) {
                 stars += '<img src="images/star_off.png" alt="star off" width="15px"/>';
             }
-
             let courseCard = '<div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-end justify-content-lg-center">' +
                             '<div class="card pl-sm-3 pr-sm-3 pl-md-0 pr-md-0">' +
                                 '<img src=' + item.thumb_url + ' class="card-img-top" alt="Video thumbnail' + (index + 1) + '"/>' +
@@ -348,16 +294,13 @@ $(document).ready(function() {
                         '</div>';
             $('.courseImage').append(courseCard);
         });
-
         if (filteredVideos.length !== 1) {
             $('.video-count').text(filteredVideos.length + ' videos');
         } else {
             $('.video-count').text(filteredVideos.length + ' video');
         }
     }
-
     let videos = [];
-
     $.ajax({
         url: 'https://smileschool-api.hbtn.info/courses',
         method: 'GET',
@@ -374,9 +317,7 @@ $(document).ready(function() {
                 dropTopicGenerate('topicDropdownMenu');
                 dropSortGenerate('sortDropdownMenu');
             }
-
             $('#searchInput').val(data.q);
-
             videos = [];
             $.each(data.courses, function(index, item) {
                 videos.push({
@@ -389,7 +330,6 @@ $(document).ready(function() {
             });
             showVideos(videos);
         },
-
         error: function(xhr, status, error) {
             console.error(xhr);
             console.error(status + ': ' + error);

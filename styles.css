@@ -12,11 +12,9 @@
   --popular-arrows-x: -6vw;
   --smile-p-margin: 20px;
   --check-color: #82d24f;
-
   --faq-pad-inner: 8vw;
   --faq-pad-outer: 7vw;
 }
-
 /* STYLES SECTION  -----------------------------------------------------------------------*/
 .body {
   font-family: var(--font-family-1);
