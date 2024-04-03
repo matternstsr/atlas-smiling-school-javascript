@@ -31,25 +31,25 @@ Author - Matthew Ernst: [matternstsr](https://github.com/matternstsr)
 ## Prototypes
 
 ### COURSES
-[COURSES Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/COURSESD.html))
+[COURSES Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/COURSESD.png))
 
-[COURSES Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/COURSESM.html))
+[COURSES Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/COURSESM.png))
 
-[COURSES Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/COURSEST.html))
-
-### COURSES
-[LANDING Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/LANDINGD.html))
-
-[LANDING Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/LANDINGM.html))
-
-[LANDING Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/LANDINGT.html))
+[COURSES Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/COURSEST.png))
 
 ### COURSES
-[PRICING Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/PRICINGD.html))
+[LANDING Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/LANDINGD.png))
 
-[PRICING Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/PRICINGM.html))
+[LANDING Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/LANDINGM.png))
 
-[PRICING Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/PRICINGT.html))
+[LANDING Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/LANDINGT.png))
+
+### COURSES
+[PRICING Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/PRICINGD.png))
+
+[PRICING Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/PRICINGM.png))
+
+[PRICING Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/PRICINGT.png))
 
 
 ## Tasks:
