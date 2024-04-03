@@ -81,6 +81,7 @@ $(document).ready(function() {
                   slidesToScroll: 1,
                   autoplay: false,
                   autoplaySpeed: 2000,
+                  infinite: false,
                   centerMode: false,
                   responsive: [
                       {breakpoint: 768,
@@ -147,6 +148,7 @@ $(document).ready(function() {
                   slidesToScroll: 1,
                   autoplay: false,
                   autoplaySpeed: 2000,
+                  infinite: false,
                   centerMode: false,
                   responsive: [
                       {
