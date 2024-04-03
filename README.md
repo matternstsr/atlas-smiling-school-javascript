@@ -31,20 +31,20 @@ Author - Matthew Ernst: [matternstsr](https://github.com/matternstsr)
 ## Prototypes
 
 ### COURSES
-[COURSES Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/COURSESD.png))
+[COURSES Desktop]((https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Desktop/COURSESD.png))
 
 [COURSES Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/COURSESM.png))
 
 [COURSES Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/COURSEST.png))
 
-### COURSES
+### LANDING
 [LANDING Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/LANDINGD.png))
 
 [LANDING Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/LANDINGM.png))
 
 [LANDING Tablet]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/LANDINGT.png))
 
-### COURSES
+### PRICING
 [PRICING Desktop]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/PRICINGD.png))
 
 [PRICING Mobile]((https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/PRICINGM.png))
