@@ -152,6 +152,10 @@
     width: 0%;
   }
 }
+.dr-seuss-link {
+  text-align: right;
+  padding-right:  14rem;
+}
 /* QUOTES SECTION   ------------------------------------------------------------------  */
 .quotes {
   height: 392px;
