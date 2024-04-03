@@ -31,25 +31,25 @@ Author - Matthew Ernst: [matternstsr](https://github.com/matternstsr)
 ## Prototypes
 
 ### COURSES
-[COURSES Desktop](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Desktop/COURSESD.png)
+[Courses Desktop](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Desktop/COURSESD.png)
 
-[COURSES Mobile](https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/COURSESM.png)
+[Courses Mobile](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Mobile/COURSESM.png)
 
-[COURSES Tablet](https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/COURSEST.png)
+[Courses Tablet](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Tablet/COURSEST.png)
 
 ### LANDING
-[LANDING Desktop](https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/LANDINGD.png)
+[Landing Desktop](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Desktop/LANDINGD.png)
 
-[LANDING Mobile](https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/LANDINGM.png)
+[Landing Mobile](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Mobile/LANDINGM.png)
 
-[LANDING Tablet](https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/LANDINGT.png)
+[Landing Tablet](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Tablet/LANDINGT.png)
 
 ### PRICING
-[PRICING Desktop](https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Desktop/PRICINGD.png)
+[Pricing Desktop](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Desktop/PRICINGD.png)
 
-[PRICING Mobile](https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Mobile/PRICINGM.png)
+[Pricing Mobile](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Mobile/PRICINGM.png)
 
-[PRICING Tablet](https://github.com/matternstsr/holbertonschool-smiling-school-javascript/Screens/Tablet/PRICINGT.png)
+[Pricing Tablet](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/Screens/Tablet/PRICINGT.png)
 
 
 ## Tasks:
