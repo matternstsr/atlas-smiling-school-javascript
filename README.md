@@ -115,22 +115,21 @@ Author - Matthew Ernst: [matternstsr](https://github.com/matternstsr)
 | -------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
 | ![Desktop](https://i.ibb.co/y51S3HX/Courses-Desktop.png) | ![Tablet](https://i.ibb.co/28qK1g0/Courses-Tablet.png) | ![Mobile](https://i.ibb.co/f8zNgkx/Courses-Mobile.png) |
 
-## Pages
+## List of Files
 
-[Origional Repo](https://github.com/jzamora5/holberton-smiling-school)
-[0-courses.html ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/0-courses.html)
-[0-homepage.html ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/0-homepage.html)
-[0-pricing.html ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/0-pricing.html)
-[1-homepage.html ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/1-homepage.html)
-[2-homepage.html ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/2-homepage.html)
-[courses.html ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/courses.html)
-[homepage.html ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/homepage.html)
-[pricing.html ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/pricing.html)
-[font-style.css ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/font-style.css)
-[scripts.js ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/scripts.js)
-[styles.css ](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/styles.css)
-[fonts folder](https://github.com/matternstsr/atlas-smiling-school-javascript/tree/master/fonts)
-[images folder](https://github.com/matternstsr/atlas-smiling-school-javascript/tree/master/images)
+- [0-courses.html](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/0-courses.html)
+- [0-homepage.html](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/0-homepage.html)
+- [0-pricing.html](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/0-pricing.html)
+- [1-homepage.html](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/1-homepage.html)
+- [2-homepage.html](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/2-homepage.html)
+- [courses.html](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/courses.html)
+- [homepage.html](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/homepage.html)
+- [pricing.html](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/pricing.html)
+- [font-style.css](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/font-style.css)
+- [scripts.js](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/scripts.js)
+- [styles.css](https://github.com/matternstsr/atlas-smiling-school-javascript/blob/master/styles.css)
+- [fonts folder](https://github.com/matternstsr/atlas-smiling-school-javascript/tree/master/fonts)
+- [images folder](https://github.com/matternstsr/atlas-smiling-school-javascript/tree/master/images)
 
 
 # Authors:
